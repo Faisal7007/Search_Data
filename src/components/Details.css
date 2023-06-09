@@ -1,0 +1,21 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content h2{
+    margin-left: 10px;
+}
+
+.content h4{
+    color: red;
+}
+
+.main >input{
+    padding: 8px;
+    width: 45vw;
+    border-radius: 10px;
+    
+}
