@@ -45,8 +45,8 @@ function Details() {
            return (
               userName.startsWith(searchTerm)||
               userName.includes(input)||
-              userName.includes(input)||
-              userName.startsWith(searchTerm)
+              item.name.includes(input)||
+              item.name.startsWith(searchTerm)
             )
       })
       .map((item) => (
