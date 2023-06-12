@@ -43,11 +43,11 @@ function Details() {
              const userName =  item.name.toLowerCase()
              const searchTerm = input.toLowerCase()
            return (
-            userName.startsWith(searchTerm)||
-            userName.includes(input)
-            ||userName.includes(input)||userName.startsWith(searchTerm)
+              userName.startsWith(searchTerm)||
+              userName.includes(input)||
+              userName.includes(input)||
+              userName.startsWith(searchTerm)
             )
-     
       })
       .map((item) => (
         <div   className="content" key={item.name}>
