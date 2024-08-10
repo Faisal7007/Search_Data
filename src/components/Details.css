@@ -22,8 +22,8 @@
 
 .content h2{
     width: 60vw;
-    /* background-color: rgb(239, 109, 17); */
-    background-color: pink;
+    background-color: rgb(239, 109, 17);
+    /* background-color: pink; */
     border-radius: 4px;
 }
 .content h4{
