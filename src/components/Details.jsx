@@ -41,10 +41,16 @@ function Details() {
 
       {data && data.filter((item)=>{
              const userName =  item.name.toLowerCase()
+             const userNameUpper =  item.name.toUpperCase()
              const searchTerm = input.toLowerCase()
+             
            return (
               userName.startsWith(searchTerm)||
+              searchTerm.startsWith(userName)||
+              userNameUpper.startsWith(searchTerm)||
+              // userNameUpper.includes(input) ||
               userName.includes(input)||
+            
               item.name.includes(input)||
               item.name.startsWith(searchTerm)
             )
